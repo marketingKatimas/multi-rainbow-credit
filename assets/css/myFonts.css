@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Cocon-Bold-Font';
+    src: url('../myFonts/Cocon-Bold-Font.woff2') format('woff2'),
+         url('../myFonts/Cocon-Bold-Font.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cocon-Regular-Font';
+    src: url('../myFonts/Cocon-Regular-Font.woff2') format('woff2'),
+         url('../myFonts/Cocon-Regular-Font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans-100';
+    src: url('../myFonts/MuseoSans-100.woff2') format('woff2'),
+         url('../myFonts/MuseoSans-100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans-300';
+    src: url('../myFonts/MuseoSans-300.woff2') format('woff2'),
+         url('../myFonts/MuseoSans-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

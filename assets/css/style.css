@@ -1411,6 +1411,7 @@ section {
 
 /* Button Primary */
 .btn--primary {
+  font-family: 'MuseoSans-300', sans-serif;
   background-color: #00C1C6;
   color: #ffffff;
 }
@@ -1427,6 +1428,7 @@ section {
   background-color: #00C1C6;
   color: #ffffff;
   margin-left: 450px;
+  font-family: 'MuseoSans-300', sans-serif;
 }
 
 .btn--primary--Learn:active,
@@ -1439,6 +1441,7 @@ section {
 .btn--primary--Learn--about {
   background-color: #00C1C6;
   color: #ffffff;
+  font-family: 'MuseoSans-300', sans-serif;
 }
 
 .btn--primary--Learn--about:active,
@@ -1509,6 +1512,7 @@ section {
 .btn--bordered.btn--primary {
   color: #00C1C6;
   border-color: #00C1C6;
+  font-family: 'MuseoSans-300', sans-serif;
 }
 
 .btn--bordered.btn--primary:active,
@@ -1617,10 +1621,13 @@ section {
 }
 
 #DocumentSection {
+  font-family: 'Cocon-Regular-Font', serif;
   margin-bottom: 5px;
+  font-weight: 500;
 }
 
 .presentation-section p {
+  font-family: 'MuseoSans-300', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -1644,10 +1651,13 @@ section {
 }
 
 #TransactionChannels {
+  font-family: 'Cocon-Regular-Font', serif;
   margin-bottom: 5px;
+  font-weight: 500;
 }
 
 .presentation-section-transaction p {
+  font-family: 'MuseoSans-300', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -1674,9 +1684,10 @@ section {
 }
 
 .formbold-form-label {
+  font-family: 'Cocon-Regular-Font', serif;
   color: #222222;
   font-size: 15px;
-  font-weight: 650;
+  font-weight: 600;
   line-height: 50px;
 }
 
@@ -1756,6 +1767,7 @@ section {
 }
 
 .page-title .title--heading h1 {
+  font-family: 'Cocon-Regular-Font', serif;
   color: #ffffff;
   font-size: 40px;
   font-weight: 400;
@@ -1883,7 +1895,8 @@ section {
     #Heading
 \*------------------------------------*/
 .heading .heading--title {
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Cocon-Regular-Font', serif;
   color: #363636;
   font-size: 36px;
   font-weight: 400;
@@ -1911,7 +1924,7 @@ section {
 
 /* Header For Calcultaor Start Here */
 .about .heading-calculator .heading--title {
-  font-family: 'Merriweather', serif;
+  font-family: 'Cocon-Regular-Font', serif;
   color: #363636;
   font-size: 36px;
   font-weight: 400;
@@ -1950,7 +1963,8 @@ section {
 }
 
 .heading .heading--desc {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'MuseoSans-300', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -2072,6 +2086,7 @@ section {
   line-height: 100px;
   color: #ffffff;
   padding: 0;
+  font-family: 'MuseoSans-300', sans-serif;
 }
 
 .nav .open>a,
@@ -2605,7 +2620,8 @@ section {
 
 .slider .slide--headline {
   color: #ffffff;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Cocon-Bold-Font', serif;
   font-size: 65px;
   font-weight: 700;
   line-height: 70px;
@@ -2615,7 +2631,8 @@ section {
 
 .slider .slide--bio {
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'MuseoSans-300', sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 34px;
@@ -2750,16 +2767,18 @@ section {
 
 .testimonial-panel .testimonial--body p {
   color: #999999;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Cocon-Regular-Font', serif;
   font-size: 18px;
   font-style: italic;
-  line-height: 35px;
+  line-height: 30px;
   margin-bottom: 0;
 }
 
 .testimonial-panel .testimonial--meta h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Cocon-Regular-Font', serif;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 10px;
@@ -2844,7 +2863,8 @@ section {
 }
 
 .feature-panel .feature--content h3 {
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Cocon-Regular-Font', serif;
   color: #363636;
   font-size: 20px;
   font-weight: 400;
@@ -2854,9 +2874,10 @@ section {
 }
 
 .feature-panel .feature--content p {
+  font-family: 'MuseoSans-300', sans-serif;
   opacity: 0.6;
-  color: #777777;
-  font-size: 14px;
+  color: #222222;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 0;
@@ -2872,19 +2893,21 @@ section {
 /* ~~~~~Our Services HomePage End~~~~~ */
 
 .feature-panel .feature--content h3 {
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Cocon-Regular-Font', serif;
   color: #363636;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   margin-bottom: 14px;
   text-transform: capitalize;
 }
 
 .feature-panel .feature--content p {
+  font-family: 'MuseoSans-300', sans-serif;
   opacity: 0.6;
-  color: #777777;
-  font-size: 14px;
+  color: #222222;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 0;
@@ -2956,7 +2979,8 @@ section {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'MuseoSans-300', sans-serif;
 }
 
 .about .signture {
@@ -3103,6 +3127,7 @@ section {
 }
 
 .footer-widget .footer--widget-title h5 {
+  font-family: 'Cocon-Regular-Font', serif;
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
@@ -3126,9 +3151,10 @@ section {
 }
 
 .footer-widget .footer--widget-content p {
+  font-family: 'MuseoSans-300', sans-serif;
   color: #bdbdbd;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 26px;
   margin-bottom: 20px;
 }
@@ -3146,6 +3172,7 @@ section {
 }
 
 .footer-widget .footer--widget-content a {
+  font-family: 'MuseoSans-300', sans-serif;
   color: #bdbdbd;
 }
 
@@ -3185,6 +3212,7 @@ section {
 }
 
 .footer--widget-recent .entry--title a {
+  font-family: 'MuseoSans-300', sans-serif;
   color: #bdbdbd;
   font-size: 14px;
   font-weight: 400;
@@ -3789,7 +3817,8 @@ section {
 
 .count-title {
   color: #344150;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Cocon-Regular-Font', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1;
@@ -4053,7 +4082,8 @@ section {
 
 .blog-entry .entry--title h4 {
   color: #363636;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Cocon-Regular-Font', serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
@@ -4117,7 +4147,7 @@ section {
 
 .blog-single .blog-entry .entry--title h4 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 42px;
 }
 
@@ -4129,7 +4159,8 @@ section {
 
 .blog-single .blog-entry .entry--content,
 .blog-single .blog-entry .entry--content p {
-  font-size: 18px;
+  font-family: 'MuseoSans-300', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   color: #555555;
@@ -4137,6 +4168,7 @@ section {
 }
 
 .blog-single .blog-entry .entry--content button {
+  font-family: 'MuseoSans-300', sans-serif;
   background: #00C1C6;
   color: #fff !important;
   border-radius: 20px;
@@ -4162,13 +4194,15 @@ section {
 }
 
 .theme-counter-two h4 {
+  font-family: 'Cocon-Regular-Font', serif;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 42px;
 }
 
 .theme-counter-two p {
-  font-size: 18px;
+  font-family: 'MuseoSans-300', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   color: #555555;
@@ -4484,6 +4518,7 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 }
 
 .widget .widget--title h5 {
+  font-family: 'Cocon-Regular-Font', serif;
   color: #363636;
   font-size: 18px;
   font-weight: 400;
@@ -4504,11 +4539,12 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 
 .widget-categories ul li a {
   color: #555555;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 33px;
   padding-left: 10px;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'MuseoSans-300', sans-serif;
 }
 
 .widget-categories ul .active {
@@ -4826,12 +4862,13 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 }
 
 .calc_output input {
+  font-family: 'Cocon-Bold-Font', serif;
   background: none;
   border: none;
   outline: none;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
-  color: #363636;
+  color: #344150;
   padding-bottom: 10px;
 }
 
@@ -4879,10 +4916,10 @@ form:not(:first-child) {
 .title {
   color: #344150;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 1rem;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cocon-Regular-Font', serif;
 }
 
 .faq-section .faq-content .calc_output input {
@@ -4987,8 +5024,9 @@ form:not(:first-child) {
 }
 
 .value {
-  color: #1E3259;
-  font-size: 35px;
+  font-family: 'Cocon-Bold-Font', serif;
+  color: #344150;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -5068,12 +5106,13 @@ form:not(:first-child) {
 }
 
 .about .calc_output input {
+  font-family: 'Cocon-Bold-Font', serif;
   background: none;
   border: none;
   outline: none;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
-  color: #363636;
+  color: #344150;
   padding-bottom: 10px;
 }
 
@@ -5229,8 +5268,8 @@ form:not(:first-child) {
 }
 
 .faq-content-about .value-container span {
-
-  color: #1E3259;
+  font-family: 'Cocon-Bold-Font', serif;
+  color: #344150;
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 1rem;
