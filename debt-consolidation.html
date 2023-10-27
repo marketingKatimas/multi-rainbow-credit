@@ -61,23 +61,23 @@
 					</div>
 					<div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
 						<ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
-							<li><a data-scroll="scrollTo" href="index.html">home</a>
+							<li><a data-scroll="scrollTo" href="index.html" id="HomeNav">home</a>
 							</li>
-							<li><a data-scroll="scrollTo" href="about.html">about</a>
-							<li class="active"><a data-scroll="scrollTo" href="our-services.html">our service</a>
-							</li>
-
-							</li>
-							<li><a data-scroll="scrollTo" href="contact-us.html">Contact Us</a>
-							</li>
-							<li><a data-scroll="scrollTo" href="calculator.html">Calculator</a>
+							<li><a data-scroll="scrollTo" href="about.html" id="AboutNav">about</a>
+							<li class="active"><a data-scroll="scrollTo" href="our-services.html" id="OurServiceNav">our service</a>
 							</li>
 
-							<li class="btn btn--primary-navbar btn--bordered"><a href="apply-now.html"
-									class="NavApply">Apply Now</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="contact-us.html" id="ContactUsNav">Contact Us</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="calculator.html" id="CalculatorNav">Calculator</a>
 							</li>
 
-							<li class="applyBtn">
+							<li class="btn btn--primary-navbar btn--bordered"><a href="apply-now.html" class="NavApply"
+									id="ApplyNav">Apply Now</a>
+							</li>
+
+							<li class="lang">
 								<!-- Langauage Switcher Toggle Starts Here-->
 								<div class="switch">
 									<input id="language-toggle" class="check-toggle check-toggle-round-flat"
@@ -106,11 +106,11 @@
 						<div class="title text-center">
 							<div class="title--content">
 								<div class="title--heading">
-									<h1>Debt Consolidation</h1>
+									<h1 id="DebtConsolidationHeader">Debt Consolidation</h1>
 								</div>
 								<ol class="breadcrumb">
-									<li><a href="index.html">Home</a></li>
-									<li class="active">Debt Consolidation</li>
+									<li id="HomeHeader"><a href="index.html">Home</a></li>
+									<li class="active" id="DebtConsolidationHeaderLink">Debt Consolidation</li>
 								</ol>
 							</div>
 						</div><!-- .title end -->
@@ -137,10 +137,10 @@
 								</a>
 							</div>
 							<div class="entry--title">
-								<h4><a href="#">Debt Consolidation</a></h4>
+								<h4 id="DebtConsolidationPages"><a>Debt Consolidation</a></h4>
 							</div>
 							<div class="entry--content">
-								<p>
+								<p id="DebtConsolidationPagesDes">
 									Don’t let multiple debts weigh you down! Manage and reduce your interest burden and take control of your finances with our low interest rate solution.
 								</p>
 								<div class="btn-container"><a href="apply-now.html"><button id="ApplyNowBtn">Apply
@@ -213,33 +213,33 @@
 
 							<div class="widget widget-categories">
 								<div class="widget--title">
-									<h5>Our Services</h5>
+									<h5 id="OurServicesSidebar">Our Services</h5>
 								</div>
 								<div class="widget--content">
 									<ul class="list-unstyled">
 										<li>
-											<a href="personal-loan.html">Personal Loan</a>
+											<a href="personal-loan.html" id="PersonalLoanSidebar">Personal Loan</a>
 										</li>
 										<li>
-											<a href="payday-loan.html">Payday Loan</a>
+											<a href="payday-loan.html" id="PaydayLoanSidebar">Payday Loan</a>
 										</li>
 										<li class="active">
-											<a href="debt-consolidation.html">Debt Consolidation</a>
+											<a href="debt-consolidation.html" id="DebtConsolidationSidebar">Debt Consolidation</a>
 										</li>
 										<li>
-											<a href="islamic-loan.html">Islamic Loan</a>
+											<a href="islamic-loan.html" id="IslamicLoanSidebar">Islamic Loan</a>
 										</li>
 										<li>
-											<a href="wedding-loan.html">Wedding Loan</a>
+											<a href="wedding-loan.html" id="WeddingLoanSidebar">Wedding Loan</a>
 										</li>
 										<li>
-											<a href="renovation-loan.html">Renovation Loan</a>
+											<a href="renovation-loan.html" id="RenovationLoanSidebar">Renovation Loan</a>
 										</li>
 										<li>
-											<a href="medical-loan.html">Medical Loan</a>
+											<a href="medical-loan.html" id="MedicalLoanSidebar">Medical Loan</a>
 										</li>
 										<li>
-											<a href="education-loan.html">Education Loan</a>
+											<a href="education-loan.html" id="EducationLoanSidebar">Education Loan</a>
 										</li>
 									</ul>
 								</div>
@@ -323,7 +323,7 @@
 
 											</div>
 											<div class="btn-container"><a href="apply-now.html"><button
-														id="ApplyNowBtn">Apply Now</button></a></div>
+														id="ApplyNowCalculator">Apply Now</button></a></div>
 										</div>
 									</div>
 								</div> <!-- /.faq-content -->
@@ -346,7 +346,7 @@
 				<div class="col-xs-12 col-sm-6 col-md-4 footer--widget-about">
 					<div class="footer--widget-content">
 						<img class="mb-20" src="assets/images/logo/logo-light-Multi.png" alt="logo">
-						<p>Every piece of information will be relayed easily and accurately to promote total
+						<p id="FooterDes">Every piece of information will be relayed easily and accurately to promote total
 							transparency so you know you’re in good hands.</p>
 						<div class="clearfix"></div>
 						<div class="social">
@@ -359,38 +359,38 @@
 				</div><!-- .col-md-4 end -->
 				<div class="col-xs-12 col-sm-6 col-md-4 footer--widget-recent">
 					<div class="footer--widget-title">
-						<h5 class="UsefulLink">Useful Link</h5>
+						<h5 class="UsefulLink" id="UsefulLink">Useful Link</h5>
 					</div>
 					<div class="footer--widget-content">
 						<div class="entry--title">
-							<a href="index.html">Home</a>
+							<a href="index.html" id="HomeFooter">Home</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="about.html">About</a>
+							<a href="about.html" id="AboutFooter">About</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="our-services.html">Our Services</a>
+							<a href="our-services.html" id="OurServicesFooter">Our Services</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="contact-us.html">Contact us</a>
+							<a href="contact-us.html" id="ContactUsFooter">Contact us</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="calculator.html">Calculator</a>
+							<a href="calculator.html" id="CalculatorFooter">Calculator</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="apply-now.html">Apply Now</a>
+							<a href="apply-now.html" id="ApplyNowFooter">Apply Now</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-md-4 footer--widget-contact">
 					<div class="footer--widget-title">
-						<h5>Get In Touch</h5>
+						<h5 id="GetInTouch">Get In Touch</h5>
 					</div>
 					<div class="footer--widget-content">
 						<ul class="list-unstyled mb-0">
@@ -426,6 +426,7 @@
 
 	<!-- Footer Scripts
 ============================================= -->
+	<script src="assets/js/language/debt-consolidation.js"></script>
 	<script src="assets/js/jquery-2.2.4.min.js"></script>
 	<script src="assets/js/plugins.js"></script>
 	<script src="assets/js/functions.js"></script>

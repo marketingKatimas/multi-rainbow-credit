@@ -61,23 +61,23 @@
 					</div>
 					<div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
 						<ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
-							<li><a data-scroll="scrollTo" href="index.html">home</a>
+							<li><a data-scroll="scrollTo" href="index.html" id="HomeNav">home</a>
 							</li>
-							<li><a data-scroll="scrollTo" href="about.html">about</a>
-							<li><a data-scroll="scrollTo" href="our-services.html">our service</a>
-							</li>
-
-							</li>
-							<li><a data-scroll="scrollTo" href="contact-us.html">Contact Us</a>
-							</li>
-							<li class="active"><a data-scroll="scrollTo" href="calculator.html">Calculator</a>
+							<li><a data-scroll="scrollTo" href="about.html" id="AboutNav">about</a>
+							<li><a data-scroll="scrollTo" href="our-services.html" id="OurServiceNav">our service</a>
 							</li>
 
-							<li class="btn btn--primary-navbar btn--bordered"><a href="apply-now.html"
-									class="NavApply">Apply Now</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="contact-us.html" id="ContactUsNav">Contact Us</a>
+							</li>
+							<li class="active"><a data-scroll="scrollTo" href="calculator.html" id="CalculatorNav">Calculator</a>
 							</li>
 
-							<li class="applyBtn">
+							<li class="btn btn--primary-navbar btn--bordered"><a href="apply-now.html" class="NavApply"
+									id="ApplyNav">Apply Now</a>
+							</li>
+
+							<li class="lang">
 								<!-- Langauage Switcher Toggle Starts Here-->
 								<div class="switch">
 									<input id="language-toggle" class="check-toggle check-toggle-round-flat"
@@ -108,11 +108,11 @@
 						<div class="title text-center">
 							<div class="title--content">
 								<div class="title--heading">
-									<h1>Calculator</h1>
+									<h1 id="CalculatorHeader">Calculator</h1>
 								</div>
 								<ol class="breadcrumb">
-									<li><a href="index.html">Home</a></li>
-									<li class="active">Calculator</li>
+									<li id="HomeHeader"><a href="index.html">Home</a></li>
+									<li class="active" id="CalculatorHeaderLink">Calculator</li>
 								</ol>
 							</div>
 						</div><!-- .title end -->
@@ -127,8 +127,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="heading-calculator heading-1 wow fadeInUp" data-wow-duration="1s">
-						<h2 class="heading--title">Personal Loan Calculator</h2>
-						<p class="heading--desc">Use this calculator to get an estimation.</p>
+						<h2 class="heading--title" id="PersonalLoanCalculator">Personal Loan Calculator</h2>
+						<p class="heading--desc" id="PersonalLoanCalculatorDes">Use this calculator to get an estimation.</p>
 						<div class="heading--divider mb-80"></div>
 					</div>
 					<div class="col-xs-12 col-sm-12 col-md-5 wow fadeInUp">
@@ -215,8 +215,8 @@
 				<div class="row clearfix">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
 						<div class="heading heading-1 text--center wow fadeInUp" data-wow-duration="1s">
-							<h2 class="heading--title">Loan Application Eligibility</h2>
-							<p class="heading--desc">If you answer “YES” to all the below questions, then you are
+							<h2 class="heading--title" id="LoanEligibility">Loan Application Eligibility</h2>
+							<p class="heading--desc" id="LoanEligibilityDes">If you answer “YES” to all the below questions, then you are
 								eligible! Apply for our loan and get the financial relief you need.</p>
 							<div class="heading--divider mb-80 heading--center"></div>
 						</div>
@@ -233,7 +233,7 @@
 							</div>
 							<div class="feature--content">
 								<h3>Malaysian</h3>
-								<p>Are you a Malaysian aged 18 - 60?</p>
+								<p id="MalaysianDes">Are you a Malaysian aged 18 - 60?</p>
 							</div>
 						</div>
 						<!-- .feature-panel end -->
@@ -247,8 +247,8 @@
 								<img src="assets/images/icon/EPF-Contributor.png" alt="" width="80px">
 							</div>
 							<div class="feature--content">
-								<h3>EPF Contributor</h3>
-								<p>Are you a consistent EPF contributor?</p>
+								<h3 id="Epf">EPF Contributor</h3>
+								<p id="EpfDes">Are you a consistent EPF contributor?</p>
 							</div>
 						</div>
 						<!-- .feature-panel end -->
@@ -262,8 +262,8 @@
 								<img src="assets/images/icon/salary-requirement.png" alt="" width="80px">
 							</div>
 							<div class="feature--content">
-								<h3>Salary Requirement</h3>
-								<p>Do you have a minimum salary of RM1,200 and you receive the salary through your bank
+								<h3 id="Salary">Salary Requirement</h3>
+								<p id="SalaryDes">Do you have a minimum salary of RM1,200 and you receive the salary through your bank
 									account?</p>
 							</div>
 						</div>
@@ -273,7 +273,7 @@
 					<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 text-center wow fadeInUp"
 						data-wow-duration="1s">
 						<div class="slide--action">
-							<a class="btn btn--primary btn--bordered" href="our-services.html">Learn More</a>
+							<a class="btn btn--primary btn--bordered" href="our-services.html" id="LearnMore">Learn More</a>
 						</div>
 					</div>
 				</div>
@@ -292,7 +292,7 @@
 				<div class="col-xs-12 col-sm-6 col-md-4 footer--widget-about">
 					<div class="footer--widget-content">
 						<img class="mb-20" src="assets/images/logo/logo-light-Multi.png" alt="logo">
-						<p>Every piece of information will be relayed easily and accurately to promote total
+						<p id="FooterDes">Every piece of information will be relayed easily and accurately to promote total
 							transparency so you know you’re in good hands.</p>
 						<div class="clearfix"></div>
 						<div class="social">
@@ -305,38 +305,38 @@
 				</div><!-- .col-md-4 end -->
 				<div class="col-xs-12 col-sm-6 col-md-4 footer--widget-recent">
 					<div class="footer--widget-title">
-						<h5 class="UsefulLink">Useful Link</h5>
+						<h5 class="UsefulLink" id="UsefulLink">Useful Link</h5>
 					</div>
 					<div class="footer--widget-content">
 						<div class="entry--title">
-							<a href="index.html">Home</a>
+							<a href="index.html" id="HomeFooter">Home</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="about.html">About</a>
+							<a href="about.html" id="AboutFooter">About</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="our-services.html">Our Services</a>
+							<a href="our-services.html" id="OurServicesFooter">Our Services</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="contact-us.html">Contact us</a>
+							<a href="contact-us.html" id="ContactUsFooter">Contact us</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="calculator.html">Calculator</a>
+							<a href="calculator.html" id="CalculatorFooter">Calculator</a>
 						</div>
 
 						<div class="entry--title">
-							<a href="apply-now.html">Apply Now</a>
+							<a href="apply-now.html" id="ApplyNowFooter">Apply Now</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-md-4 footer--widget-contact">
 					<div class="footer--widget-title">
-						<h5>Get In Touch</h5>
+						<h5 id="GetInTouch">Get In Touch</h5>
 					</div>
 					<div class="footer--widget-content">
 						<ul class="list-unstyled mb-0">
@@ -372,6 +372,7 @@
 
 	<!-- Footer Scripts
 ============================================= -->
+<script src="assets/js/language/calculator.js"></script>
 	<script src="assets/js/jquery-2.2.4.min.js"></script>
 	<script src="assets/js/plugins.js"></script>
 	<script src="assets/js/functions.js"></script>
