@@ -2840,23 +2840,23 @@ section {
 }
 
 .testimonial-panel .testimonial--body p {
-  color: #999999;
-  /* font-family: 'Merriweather', serif; */
-  font-family: 'Cocon-Regular-Font', serif;
-  font-size: 18px;
-  font-style: italic;
-  line-height: 30px;
+  font-family: 'MuseoSans-300', sans-serif;
+  opacity: 0.6;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   margin-bottom: 0;
 }
 
 .testimonial-panel .testimonial--meta h4 {
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Cocon-Regular-Font', serif;
-  font-size: 16px;
-  font-weight: 700;
+  color: #363636;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1;
-  margin-bottom: 10px;
-  padding-top: 5px;
+  margin-bottom: 14px;
+  text-transform: capitalize;
 }
 
 .testimonial-panel .testimonial--meta-img {

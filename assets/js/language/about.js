@@ -124,23 +124,23 @@ function updateAboutUs(language) {
 function  updateMakeUsDifferent(language) {
     if (language === 'bm') {
         WhatMakeUsDifferent.textContent = 'Apa Yang Membezakan Kami';
-        FastApprovalProcess.innerHTML = '<span>-</span> Proses Kelulusan Pantas <span>-</span>';
+        FastApprovalProcess.innerHTML = 'Proses Kelulusan Pantas';
         FastApprovalProcesDes.textContent = 'Proses senang & pantas membenarkan anda untuk meluangkan masa lebih untuk diri sendiri kerana kelulusan pinjaman kami hanya memakan masa yang pendek selepas penyemakan dokumen.';
-        LowInterestRate.innerHTML = '<span>-</span> Kadar Faedah Rendah <span>-</span>';
+        LowInterestRate.innerHTML = 'Kadar Faedah Rendah';
         LowInterestRateDes.textContent = 'Buang risau dengan kadar faedah rendah untuk bayaran balik bulanan yang senang.';
-        ShariahComplaint.innerHTML = '<span>-</span> Patuh Shariah <span>-</span>';
+        ShariahComplaint.innerHTML = 'Patuh Shariah';
         ShariahComplaintDes.textContent = 'Kami terapkan khidmat pinjaman yang halal dan diluluskan seiring dengan undang-undang syariah. Setiap transaksi adalah sah & selamat.';
-        FlexibleRepaymentPlan.innerHTML = '<span>-</span> Plan Bayaran Balik Fleksibel <span>-</span>';
+        FlexibleRepaymentPlan.innerHTML = 'Plan Bayaran Balik Fleksibel';
         FlexibleRepaymentPlanDes.textContent = 'Berdasarkan kelayakan kredit & pendapatan bulanan, anda akan menerima pelan pinjaman khas dari konsultan anda untuk meringankan beban kewangan anda.';
     } else {
-        WhatMakeUsDifferent.textContent = 'What Make Us Different';
-        FastApprovalProcess.innerHTML = '<span>-</span> Fast Approval Process <span>-</span>';
+        WhatMakeUsDifferent.textContent = 'What Makes Us Different';
+        FastApprovalProcess.innerHTML = 'Fast Approval Process';
         FastApprovalProcesDes.textContent = 'Our time-efficient & convenient process leaves you with more time to spend on yourself after document submission.';
-        LowInterestRate.innerHTML = '<span>-</span> Low Interest Rate <span>-</span>';
+        LowInterestRate.innerHTML = 'Low Interest Rate';
         LowInterestRateDes.textContent = 'Throw your worries out the window with our low interest rate to ease your monthly repayments.';
-        ShariahComplaint.innerHTML = '<span>-</span> Shariah-Complaint <span>-</span>';
+        ShariahComplaint.innerHTML = 'Shariah-Complaint';
         ShariahComplaintDes.textContent = 'We implement a halal financing service, approved in accordance with Shariah law, to ensure every transaction is legal and safe.';
-        FlexibleRepaymentPlan.innerHTML = '<span>-</span> Flexible Repayment Plan <span>-</span>';
+        FlexibleRepaymentPlan.innerHTML = 'Flexible Repayment Plan';
         FlexibleRepaymentPlanDes.textContent = 'We personalise a loan plan that caters to your needs based on your creditworthiness and income, so you won’t have to live from paycheck to paycheck every month.';
     }
 }
