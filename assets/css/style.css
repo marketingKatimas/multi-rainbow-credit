@@ -3200,6 +3200,14 @@ section {
   padding-bottom: 100px;
 }
 
+.footer-widget .klang{
+  margin-left: -40px;
+}
+
+.footer-widget .ampang {
+  margin-left: 40px;
+}
+
 .footer-widget .footer--widget-title h5 {
   font-family: 'Cocon-Regular-Font', serif;
   color: #ffffff;

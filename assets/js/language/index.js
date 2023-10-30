@@ -51,7 +51,7 @@ const OurServicesFooter = document.getElementById('OurServicesFooter');
 const ContactUsFooter = document.getElementById('ContactUsFooter');
 const CalculatorFooter = document.getElementById('CalculatorFooter');
 const ApplyNowFooter = document.getElementById('ApplyNowFooter');
-const GetInTouch = document.getElementById('GetInTouch');
+
 
 // Check the current language preference and update the switch accordingly
 if (localStorage.getItem('language') === 'bm') {
@@ -191,7 +191,6 @@ function updateFooter(language) {
     ContactUsFooter.textContent = 'Hubungi Kami';
     CalculatorFooter.textContent = 'Kalkulator';
     ApplyNowFooter.textContent = 'Mohon Sekarang';
-    GetInTouch.textContent = 'Hubungi Kami';
   } else {
     FooterDes.textContent = 'Every piece of information will be relayed easily and accurately to promote total transparency so you know you’re in good hands.';
     UsefulLink.textContent = 'Useful Link';
@@ -201,6 +200,5 @@ function updateFooter(language) {
     ContactUsFooter.textContent = 'Contact us';
     CalculatorFooter.textContent = 'Calculator';
     ApplyNowFooter.textContent = 'Apply Now';
-    GetInTouch.textContent = 'Get In Touch';
   }
 }
