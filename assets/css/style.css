@@ -1613,6 +1613,18 @@ section {
   margin-top: 35px;
 }
 
+/* @media screen and (min-width: 767px) and (max-width:1023px){
+  .btn--primary--Learn {
+    margin-left: 0;
+  }
+
+  .navbar-nav>li>.NavApply {
+    line-height: 100px !important;
+    color: #00C1C6 !important;
+    padding-top: 10px;
+}
+} */
+
 /*------------------------------------*\
     #FORMS
 \*------------------------------------*/
@@ -1806,7 +1818,7 @@ section {
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-title .title {
-    padding: 150px 0 100px;
+    padding: 150px 220px 100px;
   }
 
   .page-title .title--heading h1 {
@@ -2458,9 +2470,10 @@ section {
   }
 
   .navbar-nav>li {
-    height: auto !important;
+    /* height: auto !important; */
     margin-right: 0;
   }
+
 
   .navbar-nav>li.pull-left {
     float: none !important;
@@ -2480,6 +2493,45 @@ section {
 
   .navbar-nav:not(.nav-pos-right) {
     margin-right: 0;
+  }
+
+  .switch > span.on {
+    padding-left: 40px !important;
+  }
+
+  .switch > span.off {
+    padding-right: 345px;
+  }
+
+  .lang {
+    margin-bottom: 25px;
+  }
+  #UsefulLink{
+    margin-left: 0 !important;
+  }
+
+  #TheUsefulLink {
+    margin-left: -148px;
+  }
+
+  .about .img-box .top {
+    margin-left: 0 !important;
+  }
+
+  .faq-content-about .btn-container button {
+    margin-bottom: 35px;
+  }
+
+  .col-img-apply {
+    margin-top: -165px;
+  }
+
+  .presentation-section-transaction {
+    margin-top: 25px;
+  }
+
+  .presentation-section-transaction .best-list-item img {
+    width: 40%;
   }
 }
 
@@ -2543,9 +2595,23 @@ section {
   }
 
   .navbar-nav>li {
-    height: auto !important;
+    /* height: auto !important; */
     margin-right: 0;
   }
+
+  .navbar-nav>li>.NavApply {
+    line-height: 100px !important;
+    color: #00C1C6 !important;
+    padding-top: 3px;
+}
+
+.navbar-nav>li>.NavApply:hover {
+  color: #fff !important;
+}
+
+.btn--primary--Learn {
+  margin-left: 0;
+}
 
   .navbar-nav>li.pull-left {
     float: none !important;
@@ -2557,6 +2623,10 @@ section {
     padding-right: 0;
     padding-left: 0;
     padding-top: 0;
+  }
+
+  .presentation-section {
+    margin-top: -50px;
   }
 
   .navbar-toggle .icon-bar {
@@ -2583,6 +2653,10 @@ section {
 
   .navbar-nav>li>a:before {
     display: none;
+  }
+
+  .switch > span.off {
+    padding-right: 705px;
   }
 }
 
@@ -3851,7 +3925,7 @@ section {
 
   .count-box {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
   }
 }
 

@@ -84,7 +84,7 @@
                     items: 1
                 },
                 600: {
-                    items: $Carousel.data('slide-res')
+                    items: $Carousel.data('slide')
                 },
                 1000: {
                     items: $Carousel.data('slide'),
